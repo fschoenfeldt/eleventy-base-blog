@@ -1,7 +1,7 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://myurl.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "HSFL: Filmanalyse 2020",
+  "url": "https://hs-flensburg.de/",
+  "description": "Hier werden Ergebnisse des Fachs Filmanalyse 2020 vorgestellt.",
   "feed": {
     "subtitle": "I am writing about my experiences as a naval navel-gazer.",
     "filename": "feed.xml",
@@ -9,7 +9,7 @@
     "id": "https://myurl.com/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Isabelle Chaplot @Hochschule Flensburg",
+    "email": "isabelle.chaplot@hs-flensburg.de"
   }
 }
