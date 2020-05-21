@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "cargan";
+  src: url("/css/font/carganlig-webfont.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "cargan";
+  src: url("/css/font/carganbol-webfont.woff2") format("woff2");
+  font-style: normal;
+  font-weight: bold;
+}
+
+* {
+    font-family: sans-serif;
+    // insert hs font here..
+}
+
+h1, h2, h3, h4 {
+    font-family: "cargan", serif;
+    font-weight: bold;
+}

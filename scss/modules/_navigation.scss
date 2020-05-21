@@ -5,7 +5,11 @@ nav.navbar {
     display: flex;
 
     > a.navbar-brand {
-        margin-right: 1em;
+        margin: 1rem;
+        margin-right: 3rem;
+        > img {
+            height: 5rem;
+        }
     }
 
     > ul.navbar-nav {
