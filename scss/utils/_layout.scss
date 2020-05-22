@@ -1,0 +1,6 @@
+.container {
+    @include breakpoint("small") {
+        max-width: 60rem;
+        margin: 0 auto;
+    }
+}

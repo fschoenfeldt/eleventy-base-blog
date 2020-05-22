@@ -1,27 +1,28 @@
 nav.navbar {
-    @include respond-to("small") {
-        padding: 1rem;
+  margin-bottom: 0.5rem;
+
+  a.navbar-brand {
+    margin: 1rem;
+    margin-right: 3rem;
+
+    >img {
+      height: 5rem;
     }
+  }
+
+  >ul.navbar-nav {
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    > a.navbar-brand {
-        margin: 1rem;
-        margin-right: 3rem;
-        > img {
-            height: 5rem;
-        }
-    }
-
-    > ul.navbar-nav {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    &.navbar-dark {
-        /* background: #17161b;
+  &.navbar-dark {
+    /* background: #17161b;
         a {
             color: white;
         } */
-    }
+  }
+
+
 }
