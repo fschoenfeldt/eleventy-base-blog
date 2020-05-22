@@ -31,7 +31,7 @@ module.exports = {
 const createSwiperSlides = (pictures, imgpath) => {
     if (pictures) {
         return (pictures.map(picture => {
-            return `<div class="swiper-slide swiper-slide--custom" style="background: url(/img/slider/${imgpath}/${picture})"></div>`;
+            return `<div class="swiper-slide swiper-slide--custom" style="background: url(https://fschoenf.uber.space/rundgang/img/slider/${imgpath}/${picture})"></div>`;
         })).join('');
     } else {
         return `<h1>Fehler: Es wurden keine Bilder definiert!</h1>`;

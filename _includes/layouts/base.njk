@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ renderData.title or title or metadata.title }}</title>
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
-    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+    <link rel="stylesheet" href="{{ 'https://fschoenf.uber.space/rundgang/css/index.css' | url }}">
     
     <!-- Swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
@@ -27,7 +27,7 @@
         -->
       
           <ul class="navbar-nav mr-auto">
-            <a class="navbar-brand" href="{{ '/' | url }}"><img class="navbar-logo" alt="{{ metadata.title }}" src="/img/logo.jpg" /></a>
+            <a class="navbar-brand" href="{{ '/' | url }}"><img class="navbar-logo" alt="{{ metadata.title }}" src="https://fschoenf.uber.space/rundgang/img/logo.jpg" /></a>
             {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
             {%- for entry in collections.all | eleventyNavigation %}
             <li class="nav-item{% if entry.url == page.url %} active{% endif %}"><a
