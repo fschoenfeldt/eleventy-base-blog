@@ -1,20 +1,37 @@
 nav.navbar {
   margin-bottom: 0.5rem;
 
-  a.navbar-brand {
-    margin: 1rem;
-    margin-right: 3rem;
-
-    >img {
-      height: 5rem;
-    }
-  }
 
   >ul.navbar-nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template: auto auto / repeat(3, 1fr);
     align-items: center;
+    justify-items: center;
+
+    @include breakpoint("small") {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    a.navbar-brand {
+      margin: 1rem 0;
+      grid-column: span 3;
+
+      @include breakpoint("small") {
+        margin: 1rem;
+        margin-right: 3rem;
+      }
+
+      img.navbar-logo {
+        height: 5rem;
+      }
+    }
+
+    >li.nav-item {
+      grid-row: 2;
+    }
   }
 
   &.navbar-dark {

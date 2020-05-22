@@ -22,7 +22,7 @@
         -->
       
           <ul class="navbar-nav mr-auto">
-            <a class="navbar-brand" href="{{ '/' | url }}"><img alt="{{ metadata.title }}" src="/img/logo.jpg" /></a>
+            <a class="navbar-brand" href="{{ '/' | url }}"><img class="navbar-logo" alt="{{ metadata.title }}" src="/img/logo.jpg" /></a>
             {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
             {%- for entry in collections.all | eleventyNavigation %}
             <li class="nav-item{% if entry.url == page.url %} active{% endif %}"><a

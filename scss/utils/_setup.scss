@@ -12,12 +12,43 @@
   font-weight: bold;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* @font-face {
+  font-family: "Merriweather";
+  src: url("/css/font/Merriweather-Regular.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("/css/font/Merriweather-Italic.ttf") format("ttf");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("/css/font/Merriweather-Bold.ttf") format("ttf");
+  font-style: normal;
+  font-weight: bold;
+}
+ */
+
 * {
-    font-family: sans-serif;
-    // insert hs font here..
+    font-family: "Merriweather", serif;
 }
 
 h1, h2, h3, h4 {
     font-family: "cargan", serif;
     font-weight: bold;
+}
+
+p {
+  line-height: 1.7rem;
+
+  @include breakpoint("small") {
+    margin-left: 5rem;
+  }
 }
