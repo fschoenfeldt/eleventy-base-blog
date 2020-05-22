@@ -6,6 +6,8 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 
+const shortcodes = require('./shortcodes');
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
@@ -37,6 +39,10 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
+
+  Object.keys(shortcodes).forEach(shortCodeName => {
+    eleventyConfig.addShortcode(shortCodeName, shortcodes[shortCodeName])
+  })
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({

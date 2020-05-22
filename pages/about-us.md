@@ -1,7 +1,7 @@
 ---
-layout: layouts/post.njk
+layout: layouts/page.njk
 title: Über Filmanalyse
-templateClass: tmpl-post
+templateClass: tmpl-page
 eleventyNavigation:
   key: Über Filmanalyse
   order: 3

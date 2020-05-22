@@ -1,5 +1,5 @@
 ---
-layout: layouts/home.njk
+layout: layouts/page.njk
 eleventyNavigation:
   key: Startseite
   order: 1
@@ -7,6 +7,9 @@ eleventyNavigation:
 
 <h1>Einführung in die Filmanalyse</h1>
 
+{{ content }}
+
+<h2>Die neuesten Beiträge:</h3>
 {% set postslist = collections.posts | head(-3) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
