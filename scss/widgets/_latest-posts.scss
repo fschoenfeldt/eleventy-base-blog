@@ -1,0 +1,16 @@
+div.widget--latest-posts {
+    padding: 1rem;
+    background: $dark-grey;
+
+    * {
+        color: white;
+    }
+
+    li.postlist-item {
+        margin-bottom: 0.5rem;
+    }
+
+    p.archive-text {
+        color: rgb(185, 185, 185);
+    }
+}

@@ -1,0 +1,7 @@
+<div class="widget--latest-posts">
+    <h2>Die neuesten Beiträge:</h3>
+    {% set postslist = collections.posts | head(-3) %}
+    {% set postslistCounter = collections.posts | length %}
+    {% include "postslist.njk" %}
+    <p class="archive-text">Mehr Beiträge findest Du im <a href="{{ '/posts/' | url }}">Archiv</a>.</p>
+</div>

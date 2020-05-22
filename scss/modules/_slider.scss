@@ -1,0 +1,15 @@
+:root {
+  --swiper-theme-color: white !important;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 30rem;
+  margin-bottom: 2rem;
+
+  .swiper-slide--custom {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+}
