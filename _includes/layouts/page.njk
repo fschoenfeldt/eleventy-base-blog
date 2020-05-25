@@ -6,4 +6,4 @@ templateClass: tmpl-page
 
 {{ content | safe }}
 
-<p><a href="{{ '/' | url }}">← Startseite</a></p>
+{% include "backlink.njk" %}
