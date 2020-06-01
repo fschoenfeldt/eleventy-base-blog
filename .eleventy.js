@@ -53,7 +53,7 @@ module.exports = function(eleventyConfig) {
     permalink: true,
     permalinkClass: "direct-link",
     permalinkSymbol: "🔗"
-  });
+  }).disable('code');
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   // Browsersync Overrides
