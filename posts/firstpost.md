@@ -8,7 +8,11 @@ tags:
   - dütt
   - datt
 layout: layouts/post.njk
+
+audiopath: grp1
+filename: einleitung.mp3
 ---
+{% audioplayer audiopath, filename %}
 
 Jemand musste Josef K. verleumdet haben, denn ohne dass er etwas Böses getan hätte, wurde er eines Morgens verhaftet. »Wie ein Hund! « sagte er, es war, als sollte die Scham ihn überleben.
 

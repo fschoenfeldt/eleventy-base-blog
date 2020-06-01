@@ -9,7 +9,8 @@ const cowsay = require("cowsay");
 
 const paths = {
     src: '../scss',
-    dest: '../css'
+    dest: '../css',
+    htdocs : '../_site/css'
 };
 
 const styles = () => {
@@ -54,7 +55,8 @@ const minifyCSS = () => {
                 console.log();
             }),
         )
-        .pipe(gulp.dest(paths.dest));
+        .pipe(gulp.dest(paths.dest))
+        .pipe(gulp.dest(paths.htdocs));
 }
 
 const watch = () => {

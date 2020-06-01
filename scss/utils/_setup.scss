@@ -1,3 +1,38 @@
+$color-dark-grey: #17161b;
+$color-warning: #faffb8;
+
+
+/*
+Possible Colors:
+0 	#ffb8b8	rgb(255, 184, 184)	hsl(0, 100%, 86%)
+15 	#ffc9b8	rgb(255, 201, 184)	hsl(15, 100%, 86%)
+30 	#ffdbb8	rgb(255, 219, 184)	hsl(30, 100%, 86%)
+45 	#ffedb8	rgb(255, 237, 184)	hsl(45, 100%, 86%)
+60 	#ffffb8	rgb(255, 255, 184)	hsl(60, 100%, 86%)
+64 	#faffb8	rgb(250, 255, 184)	hsl(64, 100%, 86%)
+75 	#edffb8	rgb(237, 255, 184)	hsl(75, 100%, 86%)
+90 	#dbffb8	rgb(219, 255, 184)	hsl(90, 100%, 86%)
+105 	#c9ffb8	rgb(201, 255, 184)	hsl(105, 100%, 86%)
+120 	#b8ffb8	rgb(184, 255, 184)	hsl(120, 100%, 86%)
+135 	#b8ffc9	rgb(184, 255, 201)	hsl(135, 100%, 86%)
+150 	#b8ffdb	rgb(184, 255, 219)	hsl(150, 100%, 86%)
+165 	#b8ffed	rgb(184, 255, 237)	hsl(165, 100%, 86%)
+180 	#b8ffff	rgb(184, 255, 255)	hsl(180, 100%, 86%)
+195 	#b8edff	rgb(184, 237, 255)	hsl(195, 100%, 86%)
+210 	#b8dbff	rgb(184, 219, 255)	hsl(210, 100%, 86%)
+225 	#b8c9ff	rgb(184, 201, 255)	hsl(225, 100%, 86%)
+240 	#b8b8ff	rgb(184, 184, 255)	hsl(240, 100%, 86%)
+255 	#c9b8ff	rgb(201, 184, 255)	hsl(255, 100%, 86%)
+270 	#dbb8ff	rgb(219, 184, 255)	hsl(270, 100%, 86%)
+285 	#edb8ff	rgb(237, 184, 255)	hsl(285, 100%, 86%)
+300 	#ffb8ff	rgb(255, 184, 255)	hsl(300, 100%, 86%)
+315 	#ffb8ed	rgb(255, 184, 237)	hsl(315, 100%, 86%)
+330 	#ffb8db	rgb(255, 184, 219)	hsl(330, 100%, 86%)
+345 	#ffb8c9	rgb(255, 184, 201)	hsl(345, 100%, 86%)
+360 	#ffb8b8	rgb(255, 184, 184)	hsl(0, 100%, 86%)
+*/
+
+
 @font-face {
   font-family: "cargan";
   src: url("https://fschoenf.uber.space/rundgang/css/font/carganlig-webfont.woff2") format("woff2");
@@ -52,5 +87,3 @@ p {
     margin-left: 5rem;
   }
 }
-
-$dark-grey: #17161b;

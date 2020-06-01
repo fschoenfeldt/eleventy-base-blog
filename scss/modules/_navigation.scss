@@ -38,11 +38,11 @@ nav.navbar {
 
       a {
         text-decoration: none;
-        color: $dark-grey;
+        color: $color-dark-grey;
       }
 
       &.active {
-        background: $dark-grey;
+        background: $color-dark-grey;
         color: white;
         font-weight: bold;
         
@@ -55,7 +55,7 @@ nav.navbar {
   }
 
   &.navbar-dark {
-    /* background: $dark-grey;
+    /* background: $color-dark-grey;
         a {
             color: white;
         } */
