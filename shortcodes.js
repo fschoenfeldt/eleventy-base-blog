@@ -1,12 +1,8 @@
 module.exports = {
   slider: (imgpath, pictures) => {
-    console.log(imgpath);
-    console.log(pictures);
     if (!imgpath || !pictures) {
       return `
-        <div class="alert alert-warning">
-            Warning: Missing imgpath/pictures!
-        </div>
+        <div class="alert alert-warning"> Slider Shortcode -> Error: Missing imgpath/pictures! </div>
         `;
     } else {
       return `
@@ -31,7 +27,15 @@ module.exports = {
     }
   },
   audioplayer: (audiopath, filename) => {
-    
+    if(!audiopath || !filename) {
+      return `
+        <div class="alert alert-warning"> Audioplayer Shortcode -> Error: Missing audiopath/filename! </div>
+        `;
+    } else {
+      return `
+      <audio controls source src="/img/audio/${audiopath}/${filename}" />
+      `;
+    }
   }
 }
 
