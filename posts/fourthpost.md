@@ -1,14 +1,18 @@
 ---
-title: Das ist unser vierter Eintrag.
+title: Interessantes über das Drehbuch
 description: Ein Eintrag über dütt und datt
-date: 2020-05-23
+date: 2020-05-24
 tags:
   - film
   - analyse
   - dütt
   - datt
 layout: layouts/post.njk
+
+audiopath: grp1
+filename: einleitung.mp3
 ---
+{% audioplayer audiopath, filename %}
 
 Jemand musste Josef K. verleumdet haben, denn ohne dass er etwas Böses getan hätte, wurde er eines Morgens verhaftet. »Wie ein Hund! « sagte er, es war, als sollte die Scham ihn überleben.
 
