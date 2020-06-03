@@ -33,7 +33,7 @@ module.exports = {
         `;
     } else {
       return `
-      <audio controls source src="/img/audio/${audiopath}/${filename}" />
+      <audio class="audio-player" controls source src="/img/audio/${audiopath}/${filename}" />
       `;
     }
   }
