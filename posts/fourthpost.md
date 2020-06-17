@@ -5,8 +5,9 @@ date: 2020-05-24
 tags:
   - film
   - analyse
-  - dütt
-  - datt
+  - schreiben
+  - drehbuch
+  - autor
 layout: layouts/post.njk
 
 audiopath: grp1
